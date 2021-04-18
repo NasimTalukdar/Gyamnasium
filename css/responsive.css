@@ -1,0 +1,368 @@
+/* extra small device */
+@media (min-width:50px) and (max-width:575px) {
+    .navbar .navbar-brand {
+        padding: 0 !important;
+        transform: skewX(0deg) !important;
+        position: static !important;
+        background: none !important;
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0deg) !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-right: 25px;
+        color: var(--mColor);
+        border-color: #fff;
+        outline: 0;
+    }
+
+    .navbar-nav {
+        background: var(--color2);
+        text-align: center;
+    }
+
+    .modalImg img {
+        width: 98% !important;
+    }
+
+    .modalDetails {
+        display: none !important;
+    }
+
+    #banner .bannerItem {
+        padding-top: 200px !important;
+        padding-bottom: 90px !important;
+    }
+
+    #banner .bannerText h3 {
+        font-size: 25px !important;
+    }
+
+    #banner .bannerText h1 {
+        font-size: 50px !important;
+    }
+
+    #banner .banner1 .bannerText h1::before {
+        display: none;
+    }
+
+    #banner .banner1 .bannerText h1::after {
+        display: none;
+    }
+
+    #banner .banner1 .bannerText h3::before {
+        display: none;
+    }
+
+    #banner .banner1 .bannerText h3::after {
+        display: none;
+    }
+
+    #banner .banner1 .bannerText p::before {
+        display: none;
+    }
+
+    #banner .banner1 .bannerText p::after {
+        display: none;
+    }
+
+    #banner .bannerText a {
+        padding: 0 9px !important;
+        margin: 0 9px !important;
+    }
+
+    #about {
+        padding: 50px 0px !important;
+    }
+
+    #about .aboutText p:first-of-type {
+        padding-top: 10px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .aboutVideo {
+        margin-top: 15px;
+    }
+
+    .galleryContent {
+        margin-top: 15px !important;
+    }
+
+    #team {
+        margin-top: 50px !important;
+    }
+
+    #team .teamMember {
+        padding-top: 60px !important;
+    }
+
+    #team .teamsmall {
+        padding-top: 0px !important;
+    }
+
+    #classes .classMenu .nav-item {
+        width: 100% !important;
+    }
+
+    #classes .classItem ul li {
+        width: 100% !important;
+    }
+
+    footer .footer-item h4 {
+        margin-top: 20px !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 30px !important;
+    }
+
+}
+
+/* extra small device */
+
+/*  small device */
+@media(min-width:575px) and (max-width:767px) {
+    .navbar .navbar-brand {
+        padding: 0 !important;
+        transform: skewX(0deg) !important;
+        position: static !important;
+        background: none !important;
+    }
+
+    .backtoTop {
+        right: 50px !important;
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0deg) !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-right: 25px;
+        color: var(--mColor);
+        border-color: #fff;
+        outline: 0;
+    }
+
+    .navbar-nav {
+        background: var(--color2);
+        text-align: center;
+    }
+
+    .modalImg img {
+        width: 100% !important;
+    }
+
+    .modalDetails {
+        display: none !important;
+    }
+
+    #banner .bannerItem {
+        padding-top: 200px !important;
+        padding-bottom: 90px !important;
+    }
+
+    #banner .bannerText h3 {
+        font-size: 25px !important;
+    }
+
+    #banner .bannerText h1 {
+        font-size: 50px !important;
+    }
+
+    #banner .banner1 .bannerText h1::before {
+        width: 165px !important;
+        top: -20px !important;
+    }
+
+    #banner .banner1 .bannerText h1::after {
+        width: 120px !important;
+        top: -20px !important;
+    }
+
+    #banner .banner1 .bannerText h3::before {
+        height: 179px !important;
+        top: 18px !important;
+    }
+
+    #banner .banner1 .bannerText h3::after {
+        height: 177px !important;
+        top: 19px !important;
+    }
+
+    #banner .banner1 .bannerText p::before {
+        width: 82px !important;
+    }
+
+    #banner .banner1 .bannerText p::after {
+        width: 63px !important;
+    }
+
+    #about {
+        padding: 50px 0px !important;
+    }
+
+    #about .aboutText p:first-of-type {
+        padding-top: 10px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .aboutVideo {
+        margin-top: 15px;
+    }
+
+    .galleryContent {
+        margin-top: 15px !important;
+    }
+
+    #team {
+        margin-top: 50px !important;
+    }
+
+    #team .teamMember {
+        padding-top: 60px !important;
+    }
+
+    #team .teamsmall {
+        padding-top: 0px !important;
+    }
+
+    #classes .classMenu .nav-item {
+        width: 50% !important;
+    }
+
+    #classes .classItem ul li {
+        width: 49% !important;
+    }
+
+    #classes .classItem ul li:nth-child(5) {
+        margin-right: 5px !important;
+    }
+
+    footer .footer-item h4 {
+        margin-top: 20px !important;
+    }
+}
+
+/*  small device */
+/*  medium device */
+@media(min-width:768px) and (max-width:991px) {
+    .navbar .navbar-brand {
+        padding: 10px 15px !important;
+        background: #323232 !important;
+        transform: skewX(-30deg) !important;
+        position: static !important;
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(30deg) !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-right: 25px;
+        color: var(--mColor);
+        border-color: #fff;
+        outline: 0;
+    }
+
+    .navbar-nav {
+        background: var(--mColor);
+        text-align: center;
+    }
+
+    .modalImg img {
+        width: 130% !important;
+    }
+
+    #banner .bannerText h1 {
+        font-size: 70px !important;
+    }
+
+    #banner .bannerText h3 {
+        font-size: 40px !important;
+        margin-top: 25px;
+    }
+
+    #banner .banner1 .bannerText h1::before {
+        width: 226px !important;
+        top: -45px !important;
+    }
+
+    #banner .banner1 .bannerText h1::after {
+        width: 170px !important;
+        top: -45px !important;
+    }
+
+    #banner .banner1 .bannerText h3::before {
+        height: 226px !important;
+    }
+
+    #banner .banner1 .bannerText h3::after {
+        height: 226px !important;
+    }
+
+    #banner .banner1 .bannerText p::before {
+        width: 124px !important;
+    }
+
+    #banner .banner1 .bannerText p::after {
+        width: 99px !important;
+    }
+
+    #about {
+        padding: 60px 0px !important;
+    }
+
+    #about .aboutText p:first-of-type {
+        padding-top: 10px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .aboutVideo {
+        margin-top: 25px;
+    }
+
+    .galleryContent {
+        margin-top: 25px !important;
+    }
+
+    #team {
+        margin-top: 50px !important;
+    }
+
+    #team .teamMember {
+        padding-top: 60px !important;
+    }
+
+    #team .teamsmall {
+        padding-top: 0px !important;
+    }
+
+    #classes .classMenu .nav-item {
+        width: 33% !important;
+    }
+
+    #classes .classItem ul li {
+        width: 49% !important;
+    }
+
+    #classes .classItem ul li:nth-child(5) {
+        margin-right: 5px !important;
+    }
+
+    footer .footer-item h4 {
+        margin-top: 20px !important;
+    }
+}
+
+/*  medium device */
+/* large device */
+@media(min-width:1200px) {
+    #classes .classItem ul li {
+        width: 218px !important;
+    }
+}
+
+/* large device */
